@@ -1,0 +1,19 @@
+{
+    "goods": [
+        {
+            "name": "Food",
+            "price": 5.0,
+            "quantity": 100
+        },
+        {
+            "name": "Wood",
+            "price": 10.0,
+            "quantity": 50
+        },
+        {
+            "name": "Clothes",
+            "price": 20.0,
+            "quantity": 30
+        }
+    ]
+}

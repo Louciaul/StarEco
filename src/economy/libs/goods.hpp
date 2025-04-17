@@ -6,15 +6,19 @@
 class Goods {
 private:
     std::string name;
-    float price;
+    double price;
     int quantity;
 
 public:
     // Constructeur
-    Goods(const std::string& name, float price, int quantity);
+    Goods(const std::string& name, double price, int quantity);
 
     // Getters
     std::string getName() const;
+
+    double getPrice() const;
+
+    int getQuantity() const;
 
     // Méthode pour afficher les informations
     void display() const;
